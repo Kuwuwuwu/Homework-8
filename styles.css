@@ -1,0 +1,42 @@
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.block {
+    height: 40px;
+    padding: 10px; 
+    margin: 10px; 
+    border: 2px solid #000;
+}
+
+.left {
+    width: 180px;
+    float: left;
+    background-color: gold;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ .right {
+    width: 90px;
+    float: right;
+    background-color: blue;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.center {
+    width: 120px;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    
+    background-color: green;
+    color: rgba(0, 0, 0, 0.945);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.clear {
+   clear: both;
+}
